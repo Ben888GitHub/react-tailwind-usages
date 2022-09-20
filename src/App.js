@@ -111,10 +111,7 @@ function App() {
 						Here are the biggest enterprise technology acquisitions of 2021 so
 						far, in reverse chronological order.
 					</p>
-					<a
-						href="#"
-						className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-					>
+					<p className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
 						Read more
 						<svg
 							aria-hidden="true"
@@ -129,24 +126,22 @@ function App() {
 								clipRule="evenodd"
 							></path>
 						</svg>
-					</a>
+					</p>
 				</div>
 			</div>
 			<br />
 			<div className="max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 mx-auto">
-				<a href="#">
-					<img
-						className="p-8 rounded-t-lg"
-						src="https://flowbite.com/docs/images/products/apple-watch.png"
-						alt="product image"
-					/>
-				</a>
+				<img
+					className="p-8 rounded-t-lg"
+					src="https://flowbite.com/docs/images/products/apple-watch.png"
+					alt=""
+				/>
+
 				<div className="px-5 pb-5">
-					<a href="#">
-						<h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-							Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
-						</h5>
-					</a>
+					<h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+						Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
+					</h5>
+
 					<div className="flex items-center mt-2.5 mb-5">
 						<svg
 							aria-hidden="true"
