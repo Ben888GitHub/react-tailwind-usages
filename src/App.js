@@ -1,5 +1,6 @@
 import './App.css';
 import { useState } from 'react';
+import ResponsiveDesign from './components/ResponsiveDesign';
 
 function App() {
 	const [payment, setPayment] = useState(false);
@@ -321,6 +322,8 @@ function App() {
 					</span>
 				</button>
 			</div>
+			<br />
+			<ResponsiveDesign />
 		</>
 	);
 }
