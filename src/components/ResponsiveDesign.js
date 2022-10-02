@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import living_rich from '../image/Living_Rich.png';
 
 function ResponsiveDesign() {
